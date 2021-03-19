@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_qrcode_scanner/screens/home_screen.dart';
-import 'package:flutter_qrcode_scanner/screens/sencond_route.dart';
-import 'package:flutter_qrcode_scanner/screens/test_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TestScreen(),
+      home: HomeScreen(),
     );
   }
 }
